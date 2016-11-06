@@ -1,6 +1,6 @@
 <?php
 namespace Form;
-class ElementForm
+abstract class ElementForm
 { 
     protected $class=" ";
     protected $classGrid="";

@@ -22,17 +22,16 @@ class FormExample extends FormDefault {
 		          ->setLabel("Informações Adicionais*")
 		          ->setAttrs(array( 'placeholder'=>'Informações Adicionais'));   
 
-        $onnOff = new ButtonOnOff('onnOff');
-        $onnOff->setLabel("Liga desliga");
- 
+		$onnOff = new ButtonOnOff('onnOff');
+		$onnOff->setLabel("Liga desliga");
+
 		$mecadastrar = new Button('mecadastrar');
 		$mecadastrar->setContainer('<a href="#"> %s </a>');
 		$mecadastrar->addClass('btn btn-success')
 					->addClass('margin-botao')
 					->setValue('Me cadastrar');
 
-		       
-		$this->setElements(array($nmcliente, $descricao, $onnOff, $mecadastrar) );    
+		$this->setElements(array($nmcliente, $descricao, $onnOff, $mecadastrar) );     
 	}
 
 }

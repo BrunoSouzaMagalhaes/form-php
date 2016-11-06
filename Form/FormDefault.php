@@ -1,6 +1,6 @@
 <?php
 namespace Form;
-class FormDefault
+abstract class FormDefault
 {  
     protected $classForm=" ";
     private $tiposElementosAtivos = array();
